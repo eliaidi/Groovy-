@@ -1,0 +1,8 @@
+//读取JSON
+def root=new JsonSlurper().parseText(new File("person.json").text);
+println root.person.name;
+println root.person.age;
+println root.person.sex;
+root.persob.hobbies.each{
+ print it;
+}
