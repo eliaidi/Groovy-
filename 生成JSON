@@ -1,0 +1,7 @@
+def json=new JsonBuilder()
+json.person{
+ "name":"zhangsan",
+ "sex":"male",
+  "age":20
+}
+println JsonOutput.prettyPrint(json.toString());
