@@ -1,0 +1,11 @@
+json格式串
+{
+  "person":{
+      "name":"zhangsan",
+      "sex":"male",
+      "age":10,
+      "hobbies":[
+          "running":"basketball"  
+       ]
+   }
+}
